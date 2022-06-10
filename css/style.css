@@ -33,6 +33,7 @@ header{
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     font-size: 0.85rem;
     font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.751) !important;
 }
 .navbar .navbar-nav .nav-link
 {
@@ -45,6 +46,9 @@ header{
     color: var(--main-color);
 }
 @media screen and (max-width:768px) {
+    .navbar .navbar-nav{
+        text-align: center !important;
+    }
     .navbar .navbar-nav .nav-link{
         color: #000;
     }
